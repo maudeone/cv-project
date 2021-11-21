@@ -1,13 +1,71 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: aqua;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin: 0 0 15px 0;
+}
+
+.generalContainer {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.generalInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 15px 15px 15px;
+}
+
+.generalForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 15px 15px 15px;
+    text-align: center;
+}
+
+.generalLabel {
+    margin: 0px 5px;
+}
+
+.generalInput {
+    margin-bottom: 5px;
+}
+
+.generalButton {
+    background-color: rgb(177, 177, 177);
+    border-radius: 5px;
+    margin-top: 10px;
+    width: fit-content;
+    align-self: center;
+    padding: 5px 15px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
 }
